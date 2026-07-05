@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/terminal.svg" width="820" alt="terminal"/>
+<img src="assets/terminal.svg?v=2" width="820" alt="terminal"/>
 
 <br/>
 <br/>
