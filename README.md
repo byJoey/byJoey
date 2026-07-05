@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/terminal.svg?v=2" width="820" alt="terminal"/>
+<img src="assets/terminal.svg?v=3" width="820" alt="terminal"/>
 
 <br/>
 <br/>
@@ -14,16 +14,6 @@
 </div>
 
 <br/>
-
-```text
-$ ls skills/
-bash  python  javascript  go  cloudflare-workers  nginx  docker  github-actions
-```
-
-```text
-$ uptime
-网络工具 / VPS 优化 / Cloudflare 生态 · 教程在博客和 YouTube · 既然来了,就留下你的 Star 吧
-```
 
 <br/>
 
