@@ -1,0 +1,52 @@
+<svg width="820" height="360" viewBox="0 0 820 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .t { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace; font-size: 15px; }
+      .prompt { fill: #39d353; }
+      .cmd { fill: #e6edf3; }
+      .out { fill: #8b949e; }
+      .cyan { fill: #56d4dd; }
+      .pink { fill: #ff7b72; }
+      .dim { fill: #484f58; }
+    </style>
+  </defs>
+  <!-- window -->
+  <rect x="1" y="1" width="818" height="358" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <!-- title bar -->
+  <rect x="1" y="1" width="818" height="36" rx="10" fill="#161b22"/>
+  <rect x="1" y="27" width="818" height="10" fill="#161b22"/>
+  <circle cx="22" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="19" r="6" fill="#27c93f"/>
+  <text x="410" y="24" text-anchor="middle" class="t dim">joey@github: ~</text>
+
+  <!-- line 1 -->
+  <text x="24" y="72" class="t"><tspan class="prompt">joey@github:~$</tspan><tspan class="cmd" dx="8">whoami</tspan></text>
+  <text x="24" y="96" class="t out">写脚本,折腾网络。TECH / VPS / CLOUD NOTES</text>
+
+  <!-- line 2 -->
+  <g opacity="0">
+    <text x="24" y="132" class="t"><tspan class="prompt">joey@github:~$</tspan><tspan class="cmd" dx="8">ls projects/ --sort=stars</tspan></text>
+    <text x="24" y="156" class="t"><tspan class="cyan">cfnew/</tspan><tspan class="out" dx="16">Cloudflare Workers 一键部署</tspan><tspan class="pink" dx="16">14.4k</tspan></text>
+    <text x="24" y="178" class="t"><tspan class="cyan">ech-wk/</tspan><tspan class="out" dx="16">ECH Workers 工具</tspan><tspan class="pink" dx="16">1.9k</tspan></text>
+    <text x="24" y="200" class="t"><tspan class="cyan">yx-tools/</tspan><tspan class="out" dx="16">优选 IP 工具集</tspan><tspan class="pink" dx="16">1.3k</tspan></text>
+    <text x="24" y="222" class="t"><tspan class="cyan">Actions-bbr-v3/</tspan><tspan class="out" dx="16">BBRv3 内核自动构建</tspan><tspan class="pink" dx="16">1.1k</tspan></text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.32;0.4" dur="5s" fill="freeze"/>
+  </g>
+
+  <!-- line 3 -->
+  <g opacity="0">
+    <text x="24" y="258" class="t"><tspan class="prompt">joey@github:~$</tspan><tspan class="cmd" dx="8">cat motto</tspan></text>
+    <text x="24" y="282" class="t out">难舍 难分 难解 缘起 缘浅 缘灭。</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.62;0.7" dur="5s" fill="freeze"/>
+  </g>
+
+  <!-- line 4 prompt with blinking cursor -->
+  <g opacity="0">
+    <text x="24" y="318" class="t"><tspan class="prompt">joey@github:~$</tspan></text>
+    <rect x="152" y="305" width="9" height="17" fill="#e6edf3">
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.85;0.9" dur="5s" fill="freeze"/>
+  </g>
+</svg>
